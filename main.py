@@ -42,7 +42,6 @@ sections_documents = [
     SectionDocument(4, 2),
 ]
 
-
 def main():
     one_to_many = []
     for d in documents:
@@ -78,7 +77,6 @@ def main():
     many_to_many.sort(key=lambda x: x[0])
     for title, pages, doc_name in many_to_many:
         print(title, "-", doc_name)
-
 
 if __name__ == "__main__":
     main()
