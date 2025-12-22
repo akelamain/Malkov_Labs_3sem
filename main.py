@@ -15,7 +15,6 @@ class SectionDocument:
         self.doc_id = doc_id
         self.section_id = section_id
 
-# Данные
 documents = [
     Document(1, "Документ по безопасности"),
     Document(2, "Технический документ"),
