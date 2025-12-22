@@ -21,7 +21,6 @@ class TestSectionDocumentLogic(unittest.TestCase):
             Section(5, "Алгоритм", 8, 1)       
         ]
 
-        # Для Many-to-Many
         self.sections_documents = [
             SectionDocument(1, 1),
             SectionDocument(1, 2),
